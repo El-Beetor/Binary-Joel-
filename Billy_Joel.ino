@@ -27,8 +27,11 @@ int solenoidWhite= 12;
 int BoW;
 int buttonState = 0;
 
+//This is where you write your song. The keys go form 1 to 59 and then a note type after it to change the duration of the note. You can use my piano sketch to make this procces
+//much easier
 int Notes[]={41,e,40,e,41,e,40,e,41,e,36,e,39,e,37,e,34,e,22,e,25,e,29,e,34,e,36,q,17,e,21,e,29,e,37,e,36,e,34,q,41,e,40,e,41,e,40,e,41,e,36,e,39,e,37,e,34,e,22,e,25,e,29,e,34,e,36,q,17,e,21,e,29,e,33,e,36,e,37,q,
 41,e,40,e,41,e,40,e,41,e,36,e,39,e,37,e,34,e,22,e,25,e,29,e,34,e,36,q,17,e,21,e,29,e,37,e,36,e,34,q};
+
 int oneNote;
 void setup() {
   pinMode(buttonPin, INPUT);
